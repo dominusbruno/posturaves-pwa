@@ -1,0 +1,64 @@
+/* Cores personalizadas e estilos gerais */
+:root {
+  --posturaves-navbar-bg: #003F5C; /* Seu azul escuro personalizado */
+  --posturaves-navbar-link-color: rgba(255, 255, 255, 0.85);
+  --posturaves-navbar-link-hover-color: #ffffff;
+  --posturaves-navbar-link-active-color: #ffffff;
+  --posturaves-dropdown-bg: #00324A; /* Um tom um pouco diferente para o dropdown, ou o mesmo */
+  --posturaves-dropdown-link-color: rgba(255, 255, 255, 0.85);
+  --posturaves-dropdown-link-hover-color: #ffffff;
+  --posturaves-dropdown-link-hover-bg: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  /* Se a navbar for 'fixed-top', você precisará de um padding no topo do body
+     para o conteúdo não ficar escondido atrás dela. Ex:
+     padding-top: 70px; (ajuste conforme a altura da sua navbar)
+     Por enquanto, não faremos a navbar fixa.
+  */
+  /* background-color: #f4f7f6; */ /* Um cinza bem claro para o fundo da página, se desejar */
+}
+
+.navbar-custom-blue {
+  background-color: var(--posturaves-navbar-bg) !important; /* Usa a variável de cor */
+}
+
+/* Garante que os links e o ícone do toggler fiquem claros na navbar escura */
+.navbar-custom-blue .navbar-brand,
+.navbar-custom-blue .nav-link,
+.navbar-custom-blue .navbar-toggler-icon {
+  color: var(--posturaves-navbar-link-color);
+}
+
+.navbar-custom-blue .nav-link:hover,
+.navbar-custom-blue .nav-link:focus,
+.navbar-custom-blue .navbar-brand:hover {
+  color: var(--posturaves-navbar-link-hover-color);
+}
+
+.navbar-custom-blue .nav-link.active {
+  color: var(--posturaves-navbar-link-active-color);
+  font-weight: 500; /* Um pouco mais de destaque para o link ativo */
+}
+
+/* Estilizando os dropdowns para combinar com a navbar escura */
+.navbar-custom-blue .dropdown-menu {
+  background-color: var(--posturaves-dropdown-bg);
+  border-color: rgba(0, 0, 0, 0.2); /* Borda sutil */
+  border-radius: 0.25rem; /* Cantos levemente arredondados */
+  margin-top: 0.5rem; /* Pequeno espaço entre o link e o dropdown */
+}
+
+.navbar-custom-blue .dropdown-item {
+  color: var(--posturaves-dropdown-link-color);
+}
+
+.navbar-custom-blue .dropdown-item:hover,
+.navbar-custom-blue .dropdown-item:focus {
+  color: var(--posturaves-dropdown-link-hover-color);
+  background-color: var(--posturaves-dropdown-link-hover-bg);
+}
+
+.navbar-custom-blue .dropdown-divider {
+  border-top-color: rgba(255, 255, 255, 0.15);
+}

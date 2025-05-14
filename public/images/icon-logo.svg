@@ -1,0 +1,34 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
+  style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+  viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style type="text/css">
+      .fil0 {fill: black}
+      .fil1 {
+        fill: #ffffff;
+        stroke: #003F5C;
+        stroke-width: 45;
+        paint-order: stroke;
+      }
+      .fil2 {
+        fill: #FBD307;
+      }
+      .fil3 {
+        fill: #E2BE06;
+      }
+    </style>
+  </defs>
+  <g id="Layer_x0020_1">
+    <polygon class="fil0" points="95,84 95,84"></polygon>
+    <path class="fil1"
+      d="M212 488c-1,0 -1,0 -2,0 -46,-1 -107,-21 -135,-110 -15,-49 -36,-80 -52,-102 -16,-22 -27,-38 -22,-58 4,-19 23,-39 66,-71 13,-10 13,-16 13,-27 -1,-10 -1,-22 9,-40 20,-33 63,-31 105,-29 28,1 57,3 75,-7 20,-11 52,-23 89,-19 43,4 83,30 118,77 17,24 29,54 34,85 5,31 1,61 -9,85 -15,32 -42,51 -77,53 -55,4 -78,41 -102,81 -24,40 -50,82 -110,82z">
+    </path>
+    <path class="fil2"
+      d="M202 382c-62,0 -112,-50 -112,-112 0,-30 12,-59 33,-80 21,-21 49,-33 79,-33 62,0 113,51 113,113 0,62 -51,112 -113,112z">
+    </path>
+    <path class="fil3"
+      d="M259 263c-4,0 -7,-3 -7,-7 0,-24 -19,-43 -42,-43 -7,0 -15,2 -21,6 -4,2 -8,1 -10,-2 -2,-4 -1,-8 3,-10 8,-5 19,-8 28,-8 15,0 29,6 40,17 10,10 16,25 16,40 0,4 -3,7 -7,7z">
+    </path>
+  </g>
+</svg>
